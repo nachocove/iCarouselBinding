@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedDemo", "AdvancedDemo\AdvancedDemo.csproj", "{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCarouselBinding", "..\iCarouselBinding\iCarouselBinding\iCarouselBinding.csproj", "{E8EDAA21-69C1-4866-9037-28D83F0D4359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Release|iPhone.Build.0 = Release|iPhone
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B909EE27-BB02-4B27-9C81-1078DCDCB5BF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Release|iPhone.Build.0 = Release|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E8EDAA21-69C1-4866-9037-28D83F0D4359}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AdvancedDemo\AdvancedDemo.csproj
+	EndGlobalSection
+EndGlobal

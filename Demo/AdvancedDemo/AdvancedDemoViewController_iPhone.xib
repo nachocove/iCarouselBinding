@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AdvancedDemoViewController">
+            <connections>
+                <outlet property="carousel" destination="ZNS-Be-FRt" id="o8N-Oj-00k"/>
+                <outlet property="navItem" destination="Bwc-VD-ckN" id="jGT-pe-hgL"/>
+                <outlet property="orientationBarItem" destination="cIW-PW-Wlm" id="6cJ-99-JO0"/>
+                <outlet property="view" destination="6" id="7"/>
+                <outlet property="wrapBarItem" destination="TRP-T0-HOq" id="cH9-Jq-lnx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="KTI-wT-FWG">
+                    <rect key="frame" x="0.0" y="-7" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="ZNS-Be-FRt" userLabel="iCarousel" customClass="iCarousel">
+                    <rect key="frame" x="0.0" y="44" width="320" height="392"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="jfz-6L-obG">
+                    <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem title="Switch Type" id="4VV-ua-ywM">
+                            <connections>
+                                <action selector="switchCarouselType:" destination="-1" id="kya-ye-ibB"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Kd8-r8-aO9"/>
+                        <barButtonItem title="Horizontal" id="cIW-PW-Wlm">
+                            <connections>
+                                <action selector="toggleOrientation:" destination="-1" id="oqx-SP-VQJ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Wrap: ON" id="TRP-T0-HOq">
+                            <connections>
+                                <action selector="toggleWrap:" destination="-1" id="mHs-q9-jKh"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <navigationBar contentMode="scaleToFill" id="OKW-0A-wUz">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <navigationItem id="Bwc-VD-ckN">
+                            <barButtonItem key="leftBarButtonItem" title="Insert Item" id="9ns-LE-HRN">
+                                <connections>
+                                    <action selector="insertItem:" destination="-1" id="KEa-8g-uAW"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="Delete Item" id="t5y-eU-bz0">
+                                <connections>
+                                    <action selector="removeItem:" destination="-1" id="g7f-NG-sxz"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background.png" width="50" height="468"/>
+    </resources>
+</document>
