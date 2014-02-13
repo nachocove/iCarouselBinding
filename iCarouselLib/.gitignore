@@ -1,0 +1,5 @@
+build/
+libiCarouselLib-armv7.a
+libiCarouselLib-i386.a
+libiCarouselLibSDK.a
+
