@@ -158,6 +158,7 @@ namespace iCarouselBinding {
 	}
 
 	[Model, BaseType (typeof (NSObject))]
+    [Protocol]
     public partial interface iCarouselDataSource {
 
 		[Export ("numberOfItemsInCarousel:")]
@@ -174,6 +175,7 @@ namespace iCarouselBinding {
 	}
 
 	[Model, BaseType (typeof (NSObject))]
+    [Protocol]
     public partial interface iCarouselDelegate {
 
 		[Export ("carouselWillBeginScrollingAnimation:")]
